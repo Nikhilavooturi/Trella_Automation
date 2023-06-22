@@ -1,0 +1,129 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Orange HRM sign up",
+        "description": "",
+        "id": "to-verify-sign-up-functionality-of-orange-hrm-page.;orange-hrm-sign-up;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20741008400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open the url and verify the \"OrangeHRM HR Software\" of the Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OrangeHRM HR Software",
+                  "offset": 31
+                }
+              ],
+              "location": "MySteps.i_open_the_url_and_verify_the_of_the_Page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17461416600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on Try OrangeHRM For Free button and verify the sign up page",
+            "match": {
+              "location": "MySteps.i_click_on_Try_OrangeHRM_For_Free_button_and_verify_the_sign_up_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4445665800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I send the \"BTSot7\",\"Park Jimin\",\"jimin@gmail.com\" and \"7777777777\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BTSot7",
+                  "offset": 12
+                },
+                {
+                  "val": "Park Jimin",
+                  "offset": 21
+                },
+                {
+                  "val": "jimin@gmail.com",
+                  "offset": 34
+                },
+                {
+                  "val": "7777777777",
+                  "offset": 56
+                }
+              ],
+              "location": "MySteps.i_send_the_and(String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5278079000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select \"India\" and \"Telangana\" from Dropdown menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India",
+                  "offset": 10
+                },
+                {
+                  "val": "Telangana",
+                  "offset": 22
+                }
+              ],
+              "location": "MySteps.i_select_and_from_Dropdown_menu(String,String)"
+            },
+            "matchedColumns": [
+              5,
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8576675100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select the captcha checkbox and click on submit button",
+            "match": {
+              "location": "MySteps.i_select_the_captcha_checkbox_and_click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify sign up functionality of Orange HRM page.",
+    "description": "",
+    "id": "to-verify-sign-up-functionality-of-orange-hrm-page.",
+    "keyword": "Feature",
+    "uri": "Order.feature"
+  }
+]
